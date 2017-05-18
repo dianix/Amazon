@@ -1,3 +1,27 @@
-body {
-    background-color: aqua;
+#carrusel img {
+    width: 100%;
+}
+
+#lateral {
+    background-color: #FAFAFA;
+    padding: 0 1.5em;
+    letter-spacing: .1px;
+}
+
+.separador {
+    border-bottom: .3px solid #e6e5e5;
+}
+
+.azul {
+    font-size: .9em;
+    color: #0000ff;
+}
+
+.img-60 {
+    width: 50%;
+    margin-top: 2em;
+}
+
+.letras-chiquitas {
+    font-size: .7em;
 }
