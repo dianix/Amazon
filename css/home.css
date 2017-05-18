@@ -1,5 +1,11 @@
-body {
-    background-color: aqua;
+#carrusel img {
+    width: 100%;
+}
+
+#lateral {
+    background-color: #FAFAFA;
+    padding: 0 1.5em;
+    letter-spacing: .1px;
 }
 
 .productos{
@@ -9,4 +15,24 @@ body {
 
 .fila{
   padding: 3px;
+}
+
+.separador {
+    border-bottom: .3px solid #e6e5e5;
+}
+
+.m-top {
+        margin-top: 2em;
+}
+
+.img-60 {
+    width: 60%;
+}
+
+.img-40  {
+    width: 35%;
+}
+
+.letras-chiquitas {
+    font-size: .7em;
 }
