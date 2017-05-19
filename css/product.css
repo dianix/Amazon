@@ -30,3 +30,16 @@ footer span{
   margin: 0 1%;
 
 }
+.row{
+  display: flex;
+  align-items: center;
+}
+.white-letter{
+  color: #fff;
+}
+.bg-orange{
+  background-color: #CC6600;
+}
+nav{
+  height: 105px;
+}
