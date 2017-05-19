@@ -30,6 +30,8 @@ footer span{
   margin: 0 1%;
 
 }
+
+/* COMIENZAN ESTILOS ITZEL */
 .row{
   display: flex;
   align-items: center;
@@ -43,3 +45,5 @@ footer span{
 nav{
   height: 105px;
 }
+
+/* TERMINAN ESTILOS ITZEL */
