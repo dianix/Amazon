@@ -1,28 +1,11 @@
+/* COMIENZAN ESTILOS ITZEL */
+/*Comienzan estilos sección DETALLE DE PRODUCTO*/
+.margin-top {
+    margin-top: 150px;
+}
 
-footer{
-  background-color: #232F3E;
-  color: #fff;
+.mt-0 {
+    margin-top: 0px;
 }
-#regresarInicio{
-  background-color: #37475A;
-  padding: .7%;
-}
-#regresarInicio:hover{
-  background: #485769;
-}
-#copyrigth{
-  background-color: #131A22;
-  padding: 1%;
-}
-footer a{
-  text-decoration: none;
-  color: #fff;
-}
-footer a:hover{
-  color: #fff;
-  text-decoration: underline;
-}
-footer span{
-  margin: 0 1%;
-
-}
+/*Terminan estilos sección DETALLE DE PRODUCTO*/
+/* TERMINAN ESTILOS ITZEL */

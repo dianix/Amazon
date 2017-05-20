@@ -7,10 +7,98 @@
     <title>Amazon - carrito</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/carrito.css" />
+    <link rel="stylesheet" href="css/general-styles.css" />
+    <script src="https://use.fontawesome.com/75919d6994.js"></script>
 </head>
 
 <body>
-  <section class="container-fluid marginTop">
+    <!-- header - Itzel -->
+    <header>
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header container-fluid col-md-2">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+                    <a class="navbar-brand" href="#"><img src="assets/imgs/amazon-blanco.svg" alt="Dispute Bills" width="100px"></a>
+                </div>
+
+                <!-- Barra de búsqueda -->
+
+                <div id="barra" class="col-md-6">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Departamentos<span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Belleza</a></li>
+                                <li><a href="#">Juguetes</a></li>
+                                <li><a href="#">Hogar</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Linea Blanca</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Electrónica</a></li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon" role="button">
+	  							<span><i class="fa fa-search" aria-hidden="true"></i></span>
+                        </span>
+                    </div>
+                </div>
+                <!--Sección de enlaces a lado de barra de búsqueda -->
+                <div class="container col-md-2 text-left blanco">
+                    <p role="button"><i class="fa fa-play-circle colorTitulo" aria-hidden="true"></i> Prime Video</p>
+                </div>
+                <div class="container col-md-2 blanco">
+                    <p role="button" class="text-left"> Empieza tu prueba gratis</p>
+                </div>
+            </div>
+            <div class="container-fluid row">
+                <div class="col-md-8">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown col-md-3">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><small>Todos los</small> Departamentos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Belleza</a></li>
+                                <li><a href="#">Juguetes</a></li>
+                                <li><a href="#">Hogar</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Linea Blanca</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Electrónica</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-md-3"><a href="#">Mi Amazon.com.mx</a></li>
+                        <li class="col-md-2"><a href="#">Promocion</a></li>
+                        <li class="col-md-2"><a href="#">Vender</a></li>
+                        <li class="col-md-1"><a href="#">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1">
+                    <small><a href="#" class="blanco">Hola Julieta</a></small><br>
+                    <a href="#" class="dropdown-toggle dropdown blanco" data-toggle="dropdown" role="button"><small><strong>Mi cuenta</strong></small><span class="caret"></span></a>
+                </div>
+                <div class="col-md-1 blanco">
+                    <small><a href="#" class="blanco">Prueba</a></small><br>
+                    <a href="#" class="dropdown-toggle dropdown blanco" data-toggle="dropdown" role="button"><small><strong>Pime</strong></small><span class="caret"></span></a>
+                </div>
+                <div class="col-md-1">
+                    <small><a href="#" class="blanco">Wish</a></small><br>
+                    <a href="#" class="dropdown-toggle dropdown blanco" data-toggle="dropdown" role="button"><small><strong>List</strong></small><span class="caret"></span></a>
+                </div>
+                <div class="col-md-1">
+                    <small><a href="#" class="blanco"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <strong>Carrito</strong></a></small><br>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- sección carrito-Adriana -->
+<!-- BLOQUE POR EDITAR -->
+     <section class="container-fluid marginTop">
    <div class="row">
      <div class="col-md-10 detalleArticulos">
        <h4 class="col-md-7 titulo">Carrito </h4>
@@ -149,9 +237,172 @@
     </section>
 
     <div class="col-md-9 col-md-offset-1 lineadivider"></div>
+<!-- BLOQUE POR EDITAR - FIN -->
+  
+    <section class="container-fluid" id="contenedor">
+        <div class="row">
+            <div class="col-md-12" id="head"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-10" id="principal">
+                <h4><strong>Carrito</strong></h4>
+                <div class="row">
+                    <div class="col-md-10">
+                        <article>
+                            <table class="table">
+                                <tr>
+                                    <td class="col-md-1">
+                                        <img class="imagenProducto" src="assets/imgs/product2.png" alt="zelda">
+                                    </td>
+                                    <td class="col-md-5">
+                                        <p>
+                                            <h6 class="text-primary">The Legend of Zelda: Breath of the wild - Nintendo Switch - Standard Edition
+                                                <small>por Nintendo</small>
+                                            </h6>
+                                            <h6><small>Videojuego</small></h6>
+                                            <h6><small class="text-success">Disponible</small></h6>
+                                            <input type="checkbox" name="" value="">
+                                            <label for="">Es un regalo</label>
+                                            <p>
+                                                <span><a href="#">Eliminar</a></span>
+                                                <span>|</span>
+                                                <span><a href="#">Guardar para más tarde</a></span>
+                                            </p>
+                                        </p>
+                                    </td>
+                                    <td class="col-md-2">
+                                        <h6 class="text-danger">$1,298.00</h6>
+                                    </td>
+                                    <td class="col-md-2">
+                                        <select class="" name="">1</select>
+                                        <!-- <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1</button>-->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="imagenProducto" src="assets/imgs/product1.png" alt="">
+                                    </td>
+                                    <td class="col-md-5">
+                                        <p>
+                                            <h6 class="text-primary">Koblenz ER-2550- Fuente de alimentación continua, 2500 VA, 6 contactos
+                                                <small>por Koblenz</small>
+                                            </h6>
+                                            <h6>
+                                                <small class="text-success">Disponible</small>
+                                            </h6>
+                                            <input type="checkbox" name="" value="">
+                                            <label for="">Es un regalo</label>
+                                            <p>
+                                                <span><a href="#">Eliminar</a></span>
+                                                <span>|</span>
+                                                <span><a href="#">Guardar para más tarde</a></span>
+                                            </p>
+                                        </p>
+                                    </td>
+                                    <td class="col-md-2">
+                                        <h6 class="text-danger">$.00</h6>
+                                    </td>
+                                    <td class="col-md-2">
+                                        <select class="" name="">1</select>
+                                        <!-- <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1<span class="caret"></span></button>-->
+                                    </td>
+                                </tr>
+                            </table>
+                        </article>
+                    </div>
+                    <!-- <div class="col-md-6">
+                        <article>
+                            <h2>Titulo del articulo</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.
+                            </p>
+                        </article>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-md-2" id="lateral">
+                <div class="row">
+                    <div class="col-md-12" id="anuncios">
+                        <aside>
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <h2>Anuncios</h2>
+                                    <h4>Titulo</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi optio dignissimos nisi assumenda voluptas similique, esse, vel, fugiat rerum, natus neque perspiciatis accusamus error! Eaque, nobis, et! Reprehenderit, cumque, distinctio.</p>
+                                    <div class="panel-footer">
+                                        Panel footer
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
+    <!-- footer-Gaby -->
+    <footer class="container-fluid">
+        <section class="row" id="regresarInicio">
+            <div class="col-md-12 text-center">
+                <p>Inicio de página</p>
+            </div>
+        </section>
+        <section class="row small">
+            <div class="col-md-offset-2 col-md-2">
+                <h4>Conocenos</h4>
+                <p><a href="#">Trabajar en Amazon</a></p>
+                <p><a href="#">Información corporativa</a></p>
+                <p><a href="#">Departamento de prensa</a></p>
+            </div>
+            <div class="col-md-2 ">
+                <h4>Gana dinero con nosotros</h4>
+                <p><a href="#">Invita y Gana $15</a></p>
+                <p><a href="#">Vender en Amazon</a></p>
+                <p><a href="#">Publica tu libro en Kindle</a></p>
+                <p><a href="#">Programa de afiliados</a></p>
+            </div>
+            <div class="col-md-2">
+                <h4>Podemos ayudarte</h4>
+                <p><a href="#">Devolver o remplazar productos</a></p>
+                <p><a href="#">Amazon Prime</a></p>
+                <p><a href="#">Gestionar contenido y dispositivos</a></p>
+                <p><a href="#">Ayuda</a></p>
+            </div>
+            <div class="col-md-2">
+                <h4>Métodos de pago</h4>
+                <p><a href="#">Tarjetas de crédito y débito</a></p>
+                <p><a href="#">Tarjetas de regalo</a></p>
+                <p><a href="#">Meses sin intereses</a></p>
+            </div>
+        </section>
+        <hr>
+        <section class="row text-center">
+            <div class="col-md-12">
+                <p><img src="assets/imgs/amazon-blanco-corto.svg" width="5%"></p>
+            </div>
+            <div class="col-md-offset-1 col-md-10 small">
+                <p>
+                    <a href="#">Australia</a> | <a href="#">Alemania</a> | <a href="#">Brasil</a> | <a href="#">Canadá</a> |
+                    <a href="#">China</a> | <a href="#">España</a> | <a href="#">Estados Unidos</a> | <a href="#">Francia</a> |
+                    <a href="#">India</a> | <a href="#">Italia</a> | <a href="#">Japón</a> | <a href="#">Países Bajos</a> |
+                    <a href="#">Reino Unido</a> <span class="text-muted"> Y tambien: </span> <a href="#">Amazon Web Services</a>
+                </p>
+            </div>
+        </section>
+        <section class="row small" id="copyrigth">
+            <div class="col-md-12 text-center">
+                <p>
+                    <a href="#">Condiciones de Uso</a> | <a href="#">Aviso de Privacidad</a>
+                    <span class="text-muted">© 1996-2017, Amazon.com, Inc. o afiliados. Todos los derechos reservados</span>
+                </p>
+            </div>
+        </section>
+    </footer>
+    <!-- jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
