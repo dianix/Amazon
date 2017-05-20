@@ -1,25 +1,11 @@
 /* COMIENZAN ESTILOS ITZEL */
-/*Comienzan estilos NAV*/
-.row{
-  display: flex;
-  align-items: center;
-}
-.white-letter{
-  color: #fff;
-}
-.bg-orange{
-  background-color: #CC6600;
-}
-nav{
-  height: 105px;
-}
-/*Terminan estilos NAV*/
 /*Comienzan estilos sección DETALLE DE PRODUCTO*/
-.margin-top{
-  margin-top: 150px;
+.margin-top {
+    margin-top: 150px;
 }
-.mt-0{
-  margin-top: 0px;
+
+.mt-0 {
+    margin-top: 0px;
 }
 /*Terminan estilos sección DETALLE DE PRODUCTO*/
 /* TERMINAN ESTILOS ITZEL */
