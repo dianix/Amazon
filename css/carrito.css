@@ -1,10 +1,85 @@
-table{
-  margin-top: 3%;
-}
-.imagenProducto{
-  width:100%;
-  /*padding:1%;*/
-}
+
 p{
   align-content: center;
+}
+.subtitulos{
+  font-size: 13px;
+  color: #AFAFAF;
+}
+.paddingRight{
+  padding-right: 10%;
+}
+.paddingLeft{
+  padding-left: 30%;
+}
+.titulo{
+  font-size: 21px;
+  font-weight: 700;
+}
+.subtitulos{
+  font-size: 13px;
+  color: #AFAFAF;
+}
+img{
+  width: 100%;
+}
+.marginRigth{
+  margin-left: 2%;
+}
+.marginTop{
+  margin-top: 3%;
+}
+.paddingDrop{
+  padding-right: 30%;
+  padding-left : 30%;
+}
+.letraPanel{
+  font-size: .9vw;
+}
+.letraInferior{
+  font-size: .8vw;
+}
+.puntero:hover{
+    color: rgb(201, 101, 24);
+}
+.textoVerde{
+  color: #4b9e4b;
+}
+.textoRojo{
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+}
+.botonProcederPago{
+    color: #000;
+    border: 1px solid #000;
+    background-color: #FFD65E;
+
+}
+.botonProcederPago:hover{
+    color: #000;
+    border: 1px solid #000;
+    background-color: #EEBB38;
+}
+.linea{
+    display: inline;
+    background-color: #C4C4C4;
+    margin: 10px 0 0 30px;
+}
+.textoLinea{
+    text-align: center;
+}
+.ultimoPanel{
+    border-top: 1px solid #C4C4C4;
+}
+
+.descripcionProducto{
+  font-size: 17px;
+}
+
+.lineaPosterior{
+  background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+  z-index: 0;
+  zoom: 1;
+  height: 44px;
+  margin-bottom: -18px;
 }
