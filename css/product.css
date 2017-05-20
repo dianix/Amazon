@@ -32,6 +32,7 @@ footer span{
 }
 
 /* COMIENZAN ESTILOS ITZEL */
+/*Comienzan estilos NAV*/
 .row{
   display: flex;
   align-items: center;
@@ -45,5 +46,13 @@ footer span{
 nav{
   height: 105px;
 }
-
+/*Terminan estilos NAV*/
+/*Comienzan estilos sección DETALLE DE PRODUCTO*/
+.margin-top{
+  margin-top: 150px;
+}
+.mt-0{
+  margin-top: 0px;
+}
+/*Terminan estilos sección DETALLE DE PRODUCTO*/
 /* TERMINAN ESTILOS ITZEL */
