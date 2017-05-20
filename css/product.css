@@ -1,32 +1,25 @@
-
-.colorTitulo{
-  color: #CC6600;
+/* COMIENZAN ESTILOS ITZEL */
+/*Comienzan estilos NAV*/
+.row{
+  display: flex;
+  align-items: center;
 }
-
-footer{
-  background-color: #232F3E;
+.white-letter{
   color: #fff;
 }
-#regresarInicio{
-  background-color: #37475A;
-  padding: .7%;
+.bg-orange{
+  background-color: #CC6600;
 }
-#regresarInicio:hover{
-  background: #485769;
+nav{
+  height: 105px;
 }
-#copyrigth{
-  background-color: #131A22;
-  padding: 1%;
+/*Terminan estilos NAV*/
+/*Comienzan estilos sección DETALLE DE PRODUCTO*/
+.margin-top{
+  margin-top: 150px;
 }
-footer a{
-  text-decoration: none;
-  color: #fff;
+.mt-0{
+  margin-top: 0px;
 }
-footer a:hover{
-  color: #fff;
-  text-decoration: underline;
-}
-footer span{
-  margin: 0 1%;
-
-}
+/*Terminan estilos sección DETALLE DE PRODUCTO*/
+/* TERMINAN ESTILOS ITZEL */
