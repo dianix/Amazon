@@ -1,26 +1,53 @@
-footer{
-  background-color: #232F3E;
-  color: #fff;
+/*Comienzan estilos NAV - Itzel */
+.row {
+    display: flex;
+    align-items: center;
 }
-#regresarInicio{
-  background-color: #37475A;
-  padding: .7%;
+
+.white-letter {
+    color: #fff;
 }
-#regresarInicio:hover{
-  background: #485769;
+
+.bg-orange {
+    background-color: #CC6600;
 }
-#copyrigth{
-  background-color: #131A22;
-  padding: 1%;
+
+nav {
+    height: 105px;
 }
-footer a{
-  text-decoration: none;
-  color: #fff;
+/*Terminan estilos NAV*/
+
+
+/* estilos footer - Gaby */
+footer {
+    background-color: #232F3E;
+    color: #fff;
 }
-footer a:hover{
-  color: #fff;
-  text-decoration: underline;
+
+#regresarInicio {
+    background-color: #37475A;
+    padding: .7%;
 }
-footer span{
-  margin: 0 1%;
+
+#regresarInicio:hover {
+    background: #485769;
+}
+
+#copyrigth {
+    background-color: #131A22;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer span {
+    margin: 0 1%;
 }

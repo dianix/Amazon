@@ -1,35 +1,61 @@
+#carrusel {
+    margin-top: 7.5em;
+    padding-right: 0;
+}
+
 #carrusel img {
     width: 100%;
 }
 
+#principal {
+    margin-bottom: 5em;
+    padding: 0 2em;
+}
+
 #lateral {
-    background-color: #FAFAFA;
-    padding: 0 1.5em;
-    letter-spacing: .1px;
+    background-color: #f4f4f4;
+    margin-top: -2vw;
+    padding: 2vw 2vw 20vw;
 }
 
-.productos{
-  width: 100%;
+.productos {
+    width: 100%;
 }
 
-.fila{
-  padding: 3px;
+.fila {
+    padding: 3px;
 }
 
 .separador {
     border-bottom: .3px solid #e6e5e5;
 }
 
+.separador-lateral {
+    border-right: .3px solid #e6e5e5;
+}
+
+.pad-tb {
+    padding: 1.5em 0;
+}
+
 .m-top {
-        margin-top: 2em;
+    margin-top: 2em;
 }
 
-.img-60 {
-    width: 60%;
+.m-bottom {
+    margin-bottom: 2em;
 }
 
-.img-40  {
-    width: 35%;
+.m-top1 {
+    margin-top: 1em;
+}
+
+.img-sm {
+    width: 70%;
+}
+
+.img-xs {
+    width: 30%;
 }
 
 .letras-chiquitas {
