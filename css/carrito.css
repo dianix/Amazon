@@ -1,0 +1,25 @@
+#barra {
+    margin-top: 1em;
+}
+
+.blanco {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contenedor {
+    margin-top: 10em;
+}
+
+table {
+    margin-top: 3%;
+}
+
+.imagenProducto {
+    width: 100%;
+    /*padding:1%;*/
+}
+
+p {
+    align-content: center;
+}

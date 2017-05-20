@@ -1,0 +1,53 @@
+/*Comienzan estilos NAV - Itzel */
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.white-letter {
+    color: #fff;
+}
+
+.bg-orange {
+    background-color: #CC6600;
+}
+
+nav {
+    height: 105px;
+}
+/*Terminan estilos NAV*/
+
+
+/* estilos footer - Gaby */
+footer {
+    background-color: #232F3E;
+    color: #fff;
+}
+
+#regresarInicio {
+    background-color: #37475A;
+    padding: .7%;
+}
+
+#regresarInicio:hover {
+    background: #485769;
+}
+
+#copyrigth {
+    background-color: #131A22;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer span {
+    margin: 0 1%;
+}
