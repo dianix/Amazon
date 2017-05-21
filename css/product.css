@@ -5,7 +5,10 @@
 }
 
 .mt-0 {
-    margin-top: 0px;
+    margin: 0px;
+}
+#encabezadoProduct>h6>p, #detalleProduct>p{
+	line-height: .5;
 }
 /*Terminan estilos sección DETALLE DE PRODUCTO*/
 /* TERMINAN ESTILOS ITZEL */
