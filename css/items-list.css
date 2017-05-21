@@ -20,3 +20,11 @@
 .tituloSeccion {
     padding-left: 20px;
 }
+
+/*seccion andy*/
+.glyphicon-star, .icon-prime{
+  color: #ffdd25;
+}
+.prime{
+    color: #03BBCB;
+  };
