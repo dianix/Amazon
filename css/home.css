@@ -61,3 +61,9 @@
 .letras-chiquitas {
     font-size: .7em;
 }
+
+@media (min-width:0px) and (max-width:689px) {
+    #lateral, #carrusel {
+        display: none;
+    }
+}
