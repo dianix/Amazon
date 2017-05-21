@@ -9,3 +9,24 @@
 }
 /*Terminan estilos sección DETALLE DE PRODUCTO*/
 /* TERMINAN ESTILOS ITZEL */
+
+/* COMIENZAN ESTILOS GABY*/
+.colorTitulo{
+  color: #CC6600;
+ }
+.borde{
+ 	border-top: 1px dashed black;
+ 	border-bottom: 1px dashed black;
+ }
+.cuadro{
+	margin: 2% 0;
+	padding: 1%;
+	border: 1px solid black;
+}
+.cuadro a{
+	text-decoration: underline;
+}
+#recomendacionesPersonalizadas{
+	margin-bottom: 3%;
+}
+/* TERMINAN ESTILOS GABY*/
