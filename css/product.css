@@ -10,5 +10,8 @@
 #encabezadoProduct>h6>p, #detalleProduct>p{
 	line-height: .5;
 }
+.min-font-size{
+ font-size: 6.5px;
+}
 /*Terminan estilos sección DETALLE DE PRODUCTO*/
 /* TERMINAN ESTILOS ITZEL */
