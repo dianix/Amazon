@@ -1,4 +1,4 @@
-p{
+.parrafoCarrito{
   align-content: center;
 }
 .subtitulos{
@@ -15,15 +15,18 @@ p{
   font-size: 21px;
   font-weight: 700;
 }
-
-img{
+.subtitulos{
+  font-size: 13px;
+  color: #AFAFAF;
+}
+.imagenCarrito{
   width: 100%;
 }
 .marginRigth{
   margin-left: 2%;
 }
 .marginTop{
-  margin-top: 3%;
+  margin-top: 10%;
 }
 .paddingDrop{
   padding-right: 30%;
