@@ -12,12 +12,14 @@
 </head>
 
 <body>
+
+
     <!-- header - Itzel -->
-    <header>
-        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid roww">
+    <header class="container-fluid row">
+        <nav class="row navbar navbar-default navbar-inverse" role="navigation">
+            <div class=" row">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header container-fluid col-md-2">
+                <div class="navbar-header col-md-2">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				        <span class="sr-only">Toggle navigation</span>
 				        <span class="icon-bar"></span>
@@ -57,7 +59,7 @@
                     <p role="button" class="text-left"> Empieza tu prueba gratis</p>
                 </div>
             </div>
-            <div class="container-fluid row">
+            <div class=" row">
                 <div class="col-md-8">
                     <ul class="nav navbar-nav">
                         <li class="dropdown col-md-3">
@@ -98,43 +100,47 @@
     </header>
 
     <!-- menu silvana -->
-    <div class="container-fluid" id="lateral-busqueda">
-        <div class="row">
-            <div class="col-md-12 col-xs-12">
+    <section class="container-fluid" id="lateral-busqueda">
+        <div class="row bordeBarraInfo">
+            <div class="col-md-12 col-xs-12 displayFlex">
                 <div class="col-md-8">
-                    <div class="col-md-12 ">
-                        <h5>1-12 of 287 resultados para <span><a href="#">Videojuegos</a>:</span><span><a href="#">"nintendo switch"</a></span></h5>
+                    <div class="col-md-12 estilo ">
+                        <h5>1-12 of 287 resultados para <span><a href="#" class="bold">Videojuegos</a>:</span><span class="naranjaNintendo bold">"nintendo switch"</span></h5>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="col-md-12 ">
-                        <h5 class="row">Ordenar por
-                            <div class="dropdown ">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Relevance<span class="caret"></span></button>
-                                <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">Relevance</a></li>
-                                    <li><a href="#">Feacture</a></li>
-                                    <li><a href="#">Price: Low to High</a></li>
-                                    <li><a href="#">Price: High to Low</a></li>
-                                    <!-- <li role="separator" class="divider"></li> -->
-                                    <li><a href="#">Avg. Customer Review</a></li>
-                                    <li><a href="#">Release Date</a></li>
-                                </ul>
-                            </div>
-                            <span class="glyphicon glyphicon-menu-hamburger"></span>
-                            <span class="glyphicon glyphicon-th-large"></span>
-                        </h5>
+                <div class="col-md-4 displayFlex">
+                    <div>
+                      <ul class="nav nav-pills ">
+                        <li>Ordenar por</li>
+                        <li class="dropdown">
+                          <button class="dropdown-toggle anchoBotonToggle" data-toggle="dropdown" aria-haspopup="dropdown" aria-expanded="true">Relevance <span class="caret"></span></button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Relevance</a></li>
+                            <li><a href="#">Feacture</a></li>
+                            <li><a href="#">Price: Low to High</a></li>
+                            <li><a href="#">Price: High to Low</a></li>
+                            <!-- <li role="separator" class="divider"></li> -->
+                            <li><a href="#">Avg. Customer Review</a></li>
+                            <li><a href="#">Release Date</a></li>
+                        </ul>
+
+                        </li>
+                        <li><span class="iconos glyphicon glyphicon-menu-hamburger colorExtrella"></span></li>
+                        <li><span class="iconos glyphicon glyphicon-th-large letraGrisGruesa"></span></li>
+                      </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class=" borde-derecho col-xs-2" id="anuncios">
-                <nav>
+        <div>
+            <div class="borde-derecho col-xs-2" id="anuncios">
+                <nav class="row estilo  ">
                     <h4 class="letraGrisGruesa">Mostrar Resultados para</h4>
-                    <div class="listaResultados">
-                        <span class="glyphicon glyphicon-menu-left"></span><a href="#">Cualquier categoria</a>
-                        <strong class="tituloSeccion">Videojuegos</strong>
+                    <div class="listaResultados col-md-12">
+                      <div>
+                        <span class="glyphicon glyphicon-menu-left estilo"></span><a href="#">Cualquier categoria</a><br>
+                        <strong class="tituloSeccion bold">Videojuegos</strong>
+                      </div>
                         <ul>
                             <li><a href="#">Accesorios de nintendo Switch</a> <span class="letraGrisGruesa"> (63)</span></li>
                             <li><a href="#">Juegos de Nintendo Switch</a><span class="letraGrisGruesa"> (12)</span></li>
@@ -150,17 +156,15 @@
                         <strong class="tituloSeccion">+<a href="#">Ver Más</a></strong>
                         <hr>
                     </div>
-                    <div class="listaResultados">
-                        <h4 class="letraGrisGruesa">Refinar Por</h4>
+                    <div class="listaResultados col-md-12">
                         <div class="listaResultados">
-                            <ul class="sinMagenNipadding">
-                                <li><strong>Amazon Prime</strong></li>
-                                <li><input type="checkbox">Prime</li>
-                            </ul>
+                          <h4 class="letraGrisGruesa">Refinar Por</h4>
                         </div>
                         <div class="listaResultados">
                             <ul class="sinMagenNipadding">
-                                <li><strong>Marca</strong></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Amazon Prime</strong></li>
+                                <li><input type="checkbox">Prime</li>
+                                <li class="bold tamanoLetraSeparador"><strong>Marca</strong></li>
                                 <li><input type="checkbox"><a href="#">Nintendo</a></li>
                                 <li><input type="checkbox"><a href="#">Performance Designed Products</a></li>
                                 <li><input type="checkbox"><a href="#">POWER A</a></li>
@@ -176,51 +180,403 @@
                                 <li><input type="checkbox"><a href="#">Activision</a></li>
                                 <li><input type="checkbox"><a href="#">Fintie</a></li>
                                 <li>+<a href="#">Ver Más</a></li>
-                                <li><strong>Clasificación por Edad de Video Games</strong></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Clasificación por Edad de Video Games</strong></li>
                                 <li><input type="checkbox"><a href="#">A partir de 10</a></li>
                                 <li><input type="checkbox"><a href="#">Pendiente de Calificación</a></li>
                                 <li><input type="checkbox"><a href="#">Todos los Públicos</a></li>
                                 <li><input type="checkbox"><a href="#">Adolecentes</a></li>
-                                <li><strong>Género de VideoJuegos</strong></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Género de VideoJuegos</strong></li>
                                 <li><input type="checkbox"><a href="#">Aventura</a></li>
                                 <li><input type="checkbox"><a href="#">Acción</a></li>
                                 <li><input type="checkbox"><a href="#">Carreras</a></li>
                                 <li><input type="checkbox"><a href="#">Peleas</a></li>
                                 <li><input type="checkbox"><a href="#">Sala de Juegos</a></li>
                                 <li><input type="checkbox"><a href="#">Música y Baile</a></li>
-                                <li><strong>Lo Más Nuevo</strong></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Lo Más Nuevo</strong></li>
                                 <li><a href="#">Últimos 30 días</a><span class="letraGrisGruesa">(34)</span></li>
                                 <li><a href="#">Últimos 90 días</a><span class="letraGrisGruesa">(122)</span></li>
                                 <li><a href="#">Próximos 30 días</a><span class="letraGrisGruesa">(11)</span></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Opinión media de los clientes</strong></li>
+                                <li>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <a href="#">o mas</a><span class="letraGrisGruesa"> (87)</span>
+                                </li>
+                                <li>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <a href="#">o mas</a><span class="letraGrisGruesa"> (91)</span>
+                                </li>
+                                <li>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <a href="#">o mas</a><span class="letraGrisGruesa"> (92)</span>
+                                </li>
+                                <li>
+                                  <span class="glyphicon glyphicon-star colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <span class="glyphicon glyphicon-star-empty colorExtrella"></span>
+                                  <a href="#">o mas</a><span class="letraGrisGruesa">(94)</span>
+                                </li>
+                                <li class="bold tamanoLetraSeparador"><strong>Precio</strong></li>
+                                <li><a href="#">Menos de $350</a><span class="letraGrisGruesa"> (73)</span></li>
+                                <li><a href="#">$350 - $750</a><span class="letraGrisGruesa"> (52)</span></li>
+                                <li><a href="#">$750 - $1500</a><span class="letraGrisGruesa"> (69)</span></li>
+                                <li><a href="#">$1500 - $3000</a><span class="letraGrisGruesa"> (14)</span></li>
+                                <li><a href="#">Más de $3000</a><span class="letraGrisGruesa"> (79)</span></li>
+                                <li>$<input type="text" class="tamanoInput"> a $<input type="text" class="tamanoInput"><button class="goBoton" type="button">GO</button></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Descuendo</strong></li>
+                                <li><a href="#">10% de descuento o más</a><span class="letraGrisGruesa"> (74)</span></li>
+                                <li><a href="#">25% de descuento o más</a><span class="letraGrisGruesa"> (34)</span></li>
+                                <li><a href="#">50% de descuento o más</a><span class="letraGrisGruesa"> (1)</span></li>
+                                <li><a href="#">70% de descuento o más</a><span class="letraGrisGruesa"> (1)</span></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Vendedor</strong></li>
+                                <li><input type="checkbox"><a href="#">Amazon EE.UU</a><span class="letraGrisGruesa"> (108)</span></li>
+                                <li><input type="checkbox"><a href="#">Amazon México</a><span class="letraGrisGruesa"> (79)</span></li>
+                                <li><input type="checkbox"><a href="#">uShopMall</a><span class="letraGrisGruesa"> (76)</span></li>
+                                <li><input type="checkbox"><a href="#">GAMELAND SA DE CV</a><span class="letraGrisGruesa"> (56)</span></li>
+                                <li><input type="checkbox"><a href="#">G Dreamer</a><span class="letraGrisGruesa"> (36)</span></li>
+                                <li><input type="checkbox"><a href="#">Rovemall</a><span class="letraGrisGruesa"> (30)</span></li>
+                                <li><input type="checkbox"><a href="#">STAR GAMES</a><span class="letraGrisGruesa"> (26)</span></li>
+                                <li><input type="checkbox"><a href="#">Camelot Games</a><span class="letraGrisGruesa"> (18)</span></li>
+                                <li><input type="checkbox"><a href="#">Ravenholm Electronics</a><span class="letraGrisGruesa"> (17)</span></li>
+                                <li><input type="checkbox"><a href="#">SavforU</a><span class="letraGrisGruesa"> (16)</span></li>
+                                <li><strong class="tituloSeccion">+<a href="#">Ver Más</a></strong></li>
+                                <li class="bold tamanoLetraSeparador"><strong>Disponibilidad</strong></li>
+                                <li><input type="checkbox"><a href="#">Incluir no disponibles</a>></li>
                                 <hr>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </div>
-        </div>
-
 
         <!-- lista de artículos andrea -->
+        <div class="container col-xs-10 page-header">
+            <div class="col-xs-2">
+              <div class="row">
+                <div>
+                  <img class="img-responsive img-rounded" src="assets/imgs/amazon-dummy-nintendo.jpg" alt="">
+                </div>
+              </div>
+            </div>
 
-        <div class="col-xs-10">
-            <article>
-                <h2>Titulo del articulo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-            </article>
-            <hr>
-        </div>
+            <div class="col-xs-8">
+              <h3><a href="#">Nintendo Switch - Consola, color gris - Edición Estandar - Nacional - Standar Edition <h5 class="pull-right btn-default">Nintendo Switch</h5></a>
+              </h3>
+              <p>de Nintendo</p>
+              <div class="ratings">
+                <p class="pull-right">141</p>
+                <p>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                </p>
+              </div>
+              <h5><a href="#">Nacional</a>
+              </h5>
+              <strong class="text-danger">$9,449.10</strong>
+              <del>$9,999-00</del>
 
-        <div class="col-xs-10">
-            <article>
-                <h2>Titulo del articulo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-            </article>
-            <hr>
-        </div>
-    </div>
+              <p class="icon-prime"> ✓ <strong><em class="prime">Prime</em></strong>
+              </p>
+              <p>Recibelo para el <strong class="text-success">Jueves, 11 de mayo</strong></p>
+              <p>Envío GRATIS</p>
+              <br>
+              <p>Más opciones de compra</p>
+              <strong class="text-danger">$9,000.00</strong>
+              <a href="#">nuevos desde</a>
+              <a href="#" class="btn-default">(6 ofertas)</a>
+            </div>
+          </div>
+
+          <div class="container col-xs-10 page-header">
+            <div class="col-xs-2">
+              <div class="row">
+                <div>
+                  <img class="img-responsive img-rounded" src="assets/imgs/amazon-dummy-zelda.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-8">
+              <h3><a href="#">The Legend of Zelda: Breath of the Wild - Nintendo Switch - Standard Edition <h5 class="pull-right btn-default">Nintendo Switch</h5></a>
+              </h3>
+              <p>de Nintendo</p>
+              <div class="ratings">
+                <p class="pull-right">162</p>
+                <p>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                </p>
+              </div>
+              <h5><a href="#">Nacional</a>
+              </h5>
+              <strong class="text-danger">$1,298.00</strong>
+              <del>$1,599,00</del>
+
+              <p class="icon-prime"> ✓ <strong><em class="prime">Prime</em></strong>
+              </p>
+              <p>Recibelo para el <strong class="text-success">Jueves, 11 de mayo</strong></p>
+              <p>Envío GRATIS</p>
+              <br>
+              <p>Más opciones de compra</p>
+              <strong class="text-danger">$1,100.00</strong>
+              <a href="#">nuevos desde</a>
+              <a href="#" class="btn-default">(9 ofertas)</a>
+            </div>
+          </div>
+
+          <div class="container col-xs-10 page-header">
+            <div class="col-xs-2">
+              <div class="row">
+                <div>
+                  <img class="img-responsive img-rounded" src="assets/imgs/amazon-dummy-consola.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-8">
+              <h3><a href="#">Consola Nintendo Switch Neon Red Blue - Standard Edition - Nacional <h5 class="pull-right btn-default">Nintendo Switch</h5></a>
+              </h3>
+              <p>de Nintendo</p>
+              <div class="ratings">
+                <p class="pull-right">45</p>
+                <p>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                </p>
+              </div>
+              <h5><a href="#">Nacional</a>
+              </h5>
+              <strong class="text-danger">$9,999.00</strong>
+
+              <p class="icon-prime"> ✓ <strong><em class="prime">Prime</em></strong>
+              </p>
+              <p>Recibelo para el <strong class="text-success">Jueves, 11 de mayo</strong></p>
+              <p>Envío GRATIS</p>
+              <br>
+              <p>Más opciones de compra</p>
+              <strong class="text-danger">$9,999.00</strong>
+              <a href="#">nuevos desde</a>
+              <a href="#" class="btn-default">(3 ofertas)</a>
+            </div>
+          </div>
+
+          <div class="container col-xs-10 page-header">
+            <div class="col-xs-2">
+              <div class="row">
+                <div>
+                  <img class="img-responsive img-rounded" src="assets/imgs/amazon-dummy-kart.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-8">
+              <h3><a href="#">Mario Kart 8 Deluxe - Nintendo Switch - Standard Editions <h5 class="pull-right btn-default">Nintendo Switch</h5></a>
+              </h3>
+              <p>de Nintendo</p>
+              <div class="ratings">
+                <p class="pull-right">121</p>
+                <p>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                </p>
+              </div>
+              <h5><a href="#">Nacional</a>
+              </h5>
+              <strong class="text-danger">$1,229.00</strong>
+              <del>$1,599,00</del>
+
+              <p class="icon-prime"> ✓ <strong><em class="prime">Prime</em></strong>
+              </p>
+              <p>Recibelo para el <strong class="text-success">Jueves, 11 de mayo</strong></p>
+              <p>Envío GRATIS</p>
+              <br>
+              <p>Más opciones de compra</p>
+              <strong class="text-danger">$1,132.00</strong>
+              <a href="#">nuevos desde</a>
+              <a href="#" class="btn-default">(5 ofertas)</a>
+            </div>
+          </div>
+
+          <div class="container col-xs-10 page-header">
+            <div class="col-xs-2">
+              <div class="row">
+                <div>
+                  <img class="img-responsive img-rounded" src="assets/imgs/amazon-dummy-performance.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-8">
+              <h3><a href="#">Performance Designed Products para Nintendo Switch - System Case - Standard Edition <h5 class="pull-right btn-default">Nintendo Switch</h5></a>
+              </h3>
+              <p>de Nintendo</p>
+              <div class="ratings">
+                <p class="pull-right">21</p>
+                <p>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                  <span class="pull-right glyphicon glyphicon-star"></span>
+                </p>
+              </div>
+              <h5><a href="#">Nacional</a>
+              </h5>
+              <strong class="text-danger">$280.87</strong>
+              <del>$399,00</del>
+
+              <p class="icon-prime"> ✓ <strong><em class="prime">Prime</em></strong>
+              </p>
+              <p>Recibelo para el <strong class="text-success">Jueves, 11 de mayo</strong></p>
+              <p>Envío GRATIS en pedidos mayores a $599</p>
+              <br>
+              <p>Más opciones de compra</p>
+              <strong class="text-danger">$280.87</strong>
+              <a href="#">nuevos desde</a>
+              <a href="#" class="btn-default">(2 ofertas)</a>
+            </div>
+          </div>
+
+          <div class="container col-xs-10">
+            <div class="col-xs-2">
+              <div class="row">
+                <div>
+                  <img class="img-responsive img-rounded" src="assets/imgs/amazon-dummy-splatoon.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-8">
+              <h3><a href="#">Splatoon 2 - Nintendo Switch <h5 class="pull-right btn-default">Nintendo Switch</h5></a>
+              </h3>
+              <p>de Nintendo</p>
+              <div class="ratings">
+                <p class="pull-right">Garantía de precio de preventa. <a href="#">Ver detalles</a></p>
+              </div>
+              <h5><a href="#">Nacional</a>
+              </h5>
+              <strong class="text-danger">$1,338.00</strong>
+              <del>$1,599.00</del>
+
+              <p class="icon-prime"> ✓ <strong><em class="prime">Prime</em></strong>
+              </p>
+              <p>Recibelo para el <strong class="text-success">Jueves, 11 de mayo</strong></p>
+              <p>Envío GRATIS</p>
+              <br>
+              <p>Disponible en preventa. Este producto saldrá a la venta el 21 julio 2017</p>
+              <br>
+            </div>
+          </div>
+
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="well text-center">
+                  <strong> < </strong> Página anterior <strong> 1 </strong> <span text-primary> 2  3 ...</span> 24 <a href="#" class="btn-default"><strong>Página siguiente > </strong></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 hero-feature">
+                <div class="thumbnail">
+                  <div class="caption">
+                    <h3>Tu opinión sobre el resultado de la búsqueda</h3>
+                    <p>¿Has encontrado lo que estabas buscando?</p>
+                    <p>
+                      <a href="#" class="btn btn-default">Sí</a> <a href="#" class="btn btn-default">No</a>
+                    </p>
+                    <p>sí necsitas ayuda o tienes alguna pregunta para la Atención al cliente, <a target="_blank" href="">visita la sección de Ayuda.</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
 
     <!-- footer-Gaby -->
+    <footer class="container-fluid">
+        <section class="row" id="regresarInicio">
+            <div class="col-md-12 text-center">
+                <p>Inicio de página</p>
+            </div>
+        </section>
+        <section class="row small">
+            <div class="col-md-offset-2 col-md-2">
+                <h4>Conocenos</h4>
+                <p><a href="#">Trabajar en Amazon</a></p>
+                <p><a href="#">Información corporativa</a></p>
+                <p><a href="#">Departamento de prensa</a></p>
+            </div>
+            <div class="col-md-2 ">
+                <h4>Gana dinero con nosotros</h4>
+                <p><a href="#">Invita y Gana $15</a></p>
+                <p><a href="#">Vender en Amazon</a></p>
+                <p><a href="#">Publica tu libro en Kindle</a></p>
+                <p><a href="#">Programa de afiliados</a></p>
+            </div>
+            <div class="col-md-2">
+                <h4>Podemos ayudarte</h4>
+                <p><a href="#">Devolver o remplazar productos</a></p>
+                <p><a href="#">Amazon Prime</a></p>
+                <p><a href="#">Gestionar contenido y dispositivos</a></p>
+                <p><a href="#">Ayuda</a></p>
+            </div>
+            <div class="col-md-2">
+                <h4>Métodos de pago</h4>
+                <p><a href="#">Tarjetas de crédito y débito</a></p>
+                <p><a href="#">Tarjetas de regalo</a></p>
+                <p><a href="#">Meses sin intereses</a></p>
+            </div>
+        </section>
+        <hr>
+        <section class="row text-center">
+            <div class="col-md-12">
+                <p><img src="assets/imgs/amazon-blanco-corto.svg" width="5%"></p>
+            </div>
+            <div class="col-md-offset-1 col-md-10 small">
+                <p>
+                    <a href="#">Australia</a> | <a href="#">Alemania</a> | <a href="#">Brasil</a> | <a href="#">Canadá</a> |
+                    <a href="#">China</a> | <a href="#">España</a> | <a href="#">Estados Unidos</a> | <a href="#">Francia</a> |
+                    <a href="#">India</a> | <a href="#">Italia</a> | <a href="#">Japón</a> | <a href="#">Países Bajos</a> |
+                    <a href="#">Reino Unido</a> <span class="text-muted"> Y tambien: </span> <a href="#">Amazon Web Services</a>
+                </p>
+            </div>
+        </section>
+        <section class="row small" id="copyrigth">
+            <div class="col-md-12 text-center">
+                <p>
+                    <a href="#">Condiciones de Uso</a> | <a href="#">Aviso de Privacidad</a>
+                    <span class="text-muted">© 1996-2017, Amazon.com, Inc. o afiliados. Todos los derechos reservados</span>
+                </p>
+            </div>
+        </section>
+    </footer>
 
 
     <!-- jQuery y Bootstrap -->
