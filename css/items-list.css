@@ -7,7 +7,18 @@
     list-style: none;
     text-align: left;
 }
-
+.estilo a{
+  color: black;
+  font-size: 14px;
+}
+.naranjaNintendo{
+  color: rgb(228, 121, 17);
+}
+.estilo a:hover{
+  text-decoration: none;
+  color: rgb(228, 121, 17);
+  /*color: rgb(255, 172, 29);*/
+}
 .borde-derecho {
     border-right: 1px solid #ddd;
 }
@@ -16,7 +27,53 @@
     color: #999;
     font-weight: bold;
 }
-
-.tituloSeccion {
-    padding-left: 20px;
+.anchoBotonToggle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
 }
+.iconos{
+  font-size: 20px;
+  padding: 3px;
+}
+.bold{
+  font-weight: bold;
+}
+.tamanoLetraSeparador{
+  font-size: 15px;
+  padding-top: 15px;
+}
+.tituloSeccion {
+  font-weight: bold;
+  padding-left: 20px;
+}
+.colorExtrella{
+  color: rgb(255, 172, 29);
+}
+.tamanoInput{
+  width: 20%;
+  height: 90%;
+  border-radius: 20%;
+}
+.goBoton{
+  border-radius: 40%;
+}
+.bordeBarraInfo{
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.displayFlex{
+  display: flex;
+  align-items:center;
+}
+
+/*.margin-top {
+    margin-top: 150px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}*/
