@@ -1,19 +1,22 @@
-.sinMagenNipadding{
-  padding: 0;
-  margin: 0;
-}
-.listaResultados ul{
-  list-style: none;
-  text-align: left;
-}
-.borde-derecho{
-  border-right: 1px solid #ddd;
+.sinMagenNipadding {
+    padding: 0;
+    margin: 0;
 }
 
-.letraGrisGruesa{
-  color:#999;
-  font-weight: bold;
+.listaResultados ul {
+    list-style: none;
+    text-align: left;
 }
-.tituloSeccion{
-  padding-left: 20px;
+
+.borde-derecho {
+    border-right: 1px solid #ddd;
+}
+
+.letraGrisGruesa {
+    color: #999;
+    font-weight: bold;
+}
+
+.tituloSeccion {
+    padding-left: 20px;
 }
