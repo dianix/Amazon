@@ -43,3 +43,16 @@
 	margin-bottom: 3%;
 }
 /* TERMINAN ESTILOS GABY*/
+
+/* COMIENZAN ESTILOS PARI*/
+.clientes{
+  width:100%;
+}
+.conjunto{
+  display: block;
+}
+
+.margen{
+  margin-top: -83%;
+}
+/* TERMINAN ESTILOS PARI*/
