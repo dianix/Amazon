@@ -51,3 +51,8 @@ footer a:hover {
 footer span {
     margin: 0 1%;
 }
+
+.blanc {
+    text-decoration: none;
+    color: #fff;
+}
