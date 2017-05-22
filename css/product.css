@@ -7,9 +7,7 @@
 .mt-0 {
     margin: 0px;
 }
-#encabezadoProduct>h6>p, #detalleProduct>p{
-	line-height: .5;
-}
+
 .min-font-size{
  font-size: 6.5px;
 }
@@ -19,7 +17,9 @@
 .alt-50{
 	height: 40px;
 }
-
+.img{
+	width: 100%;
+}
 /*Terminan estilos sección DETALLE DE PRODUCTO*/
 /* TERMINAN ESTILOS ITZEL */
 
